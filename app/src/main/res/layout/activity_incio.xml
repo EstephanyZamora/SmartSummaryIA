@@ -41,7 +41,7 @@
         android:layout_width="365dp"
         android:layout_height="215dp"
         android:layout_marginTop="28dp"
-        android:background="@drawable/layout_redondo_fondo_azul"
+        android:background="@drawable/layout_inicio_redondo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +85,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="378dp"
         android:layout_height="82dp"
-        android:background="@drawable/layout_redondo_fondo_azul"
+        android:background="@drawable/layout_inicio_redondo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
@@ -131,8 +131,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
-        android:layout_width="358dp"
-        android:layout_height="87dp"
+        android:layout_width="360dp"
+        android:layout_height="104dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,7 +155,7 @@
             android:id="@+id/btn_resumir"
             android:layout_width="208dp"
             android:layout_height="69dp"
-            android:background="@drawable/btn_resumir"
+            android:backgroundTint="@color/teal_200"
             android:text="RESUMIR"
             android:textSize="30dp"
             android:textStyle="bold"
